@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programa_estudio>
+  <pe_1>
+    <codigo>DPW</codigo>
+    <tipo>Modular</tipo>
+    <nombre>DISEÑO Y PROGRAMACIÓN WEB</nombre>
+    <planes_estudio/>
+  </pe_1>
+  <pe_2>
+    <codigo>ET</codigo>
+    <tipo>Modular</tipo>
+    <nombre>ENFERMERÍA TÉCNICA</nombre>
+    <planes_estudio/>
+  </pe_2>
+  <pe_3>
+    <codigo>IA</codigo>
+    <tipo>Modular</tipo>
+    <nombre>INDUSTRIAS ALIMENTARIAS</nombre>
+    <planes_estudio/>
+  </pe_3>
+  <pe_4>
+    <codigo>MA</codigo>
+    <tipo>Modular</tipo>
+    <nombre>MECATRONICA AUTOMOTRIZ</nombre>
+    <planes_estudio/>
+  </pe_4>
+  <pe_5>
+    <codigo>PA</codigo>
+    <tipo>Modular</tipo>
+    <nombre>PRODUCCIÓN AGROPECUARIA</nombre>
+    <planes_estudio/>
+  </pe_5>
+  <pe_6>
+    <codigo>IAB</codigo>
+    <tipo>Modular</tipo>
+    <nombre>INDUSTRIAS DE ALIMENTOS Y BEBIDAS</nombre>
+    <planes_estudio/>
+  </pe_6>
+</programa_estudio>

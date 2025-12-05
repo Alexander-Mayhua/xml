@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+  <nombre>IES Publico HUANTA</nombre>
+  <programas_estudio>
+    <pe1>
+      <mod1>
+        <per1>
+          <nombre>I</nombre>
+          <unidades_didacticas>
+            <ud1>
+              <nombre>Fundamentos de programación</nombre>
+            </ud1>
+            <ud2>
+              <nombre>Redes e internet</nombre>
+            </ud2>
+            <ud3>
+              <nombre>Análisis y diseño de sistemas</nombre>
+            </ud3>
+            <ud4>
+              <nombre>Introducción de base de datos</nombre>
+            </ud4>
+            <ud5>
+              <nombre>Arquitectura de computadoras</nombre>
+            </ud5>
+            <ud6>
+              <nombre>Comunicación oral</nombre>
+            </ud6>
+            <ud7>
+              <nombre>Aplicaciones en internet</nombre>
+            </ud7>
+          </unidades_didacticas>
+        </per1>
+        <per2>
+          <nombre>II</nombre>
+          <unidades_didacticas>
+            <ud1>
+              <nombre>Ofimática</nombre>
+            </ud1>
+            <ud2>
+              <nombre>Interpretación y producción textos</nombre>
+            </ud2>
+            <ud3>
+              <nombre>Metodología de desarrollo de software</nombre>
+            </ud3>
+            <ud4>
+              <nombre>Programación orientada a objetos</nombre>
+            </ud4>
+            <ud5>
+              <nombre>Arquitectura de servidores web</nombre>
+            </ud5>
+            <ud6>
+              <nombre>Aplicaciones sistematizadas</nombre>
+            </ud6>
+            <ud7>
+              <nombre>Taller de base de datos</nombre>
+            </ud7>
+          </unidades_didacticas>
+        </per2>
+        <nombre>ANALISIS Y DISEÑO DE SISTEMAS WEB</nombre>
+      </mod1>
+      <mod2>
+        <per1>
+          <nombre>III</nombre>
+          <unidades_didacticas>
+            <ud1>
+              <nombre>Administración de base de datos</nombre>
+            </ud1>
+            <ud2>
+              <nombre>Programación de aplicaciones web</nombre>
+            </ud2>
+            <ud3>
+              <nombre>Diseño de interfaces web</nombre>
+            </ud3>
+            <ud4>
+              <nombre>Pruebas de software</nombre>
+            </ud4>
+            <ud5>
+              <nombre>Inglés para la comunicación oral</nombre>
+            </ud5>
+          </unidades_didacticas>
+        </per1>
+        <per2>
+          <nombre>IV</nombre>
+          <unidades_didacticas>
+            <ud1>
+              <nombre>Desarrollo de entornos web</nombre>
+            </ud1>
+            <ud2>
+              <nombre>Programación de soluciones web</nombre>
+            </ud2>
+            <ud3>
+              <nombre>Proyectos de software</nombre>
+            </ud3>
+            <ud4>
+              <nombre>Seguridad en aplicaciones web</nombre>
+            </ud4>
+            <ud5>
+              <nombre>Comprensión y redacción en inglés</nombre>
+            </ud5>
+            <ud6>
+              <nombre>Comportamiento ético</nombre>
+            </ud6>
+          </unidades_didacticas>
+        </per2>
+        <nombre>DESARROLLO DE APLICACIONES WEB</nombre>
+      </mod2>
+      <mod3>
+        <per1>
+          <nombre>V</nombre>
+          <unidades_didacticas>
+            <ud1>
+              <nombre>Programación de aplicaciones móviles</nombre>
+            </ud1>
+            <ud2>
+              <nombre>Marketing digital</nombre>
+            </ud2>
+            <ud3>
+              <nombre>Diseño de soluciones web</nombre>
+            </ud3>
+            <ud4>
+              <nombre>Gestión y administración de sitios web</nombre>
+            </ud4>
+            <ud5>
+              <nombre>Diagramación digital</nombre>
+            </ud5>
+            <ud6>
+              <nombre>Solución de problemas</nombre>
+            </ud6>
+            <ud7>
+              <nombre>Oportunidades de negocios</nombre>
+            </ud7>
+          </unidades_didacticas>
+        </per1>
+        <per2>
+          <nombre>VI</nombre>
+          <unidades_didacticas>
+            <ud1>
+              <nombre>Plataforma de servicios web</nombre>
+            </ud1>
+            <ud2>
+              <nombre>Ilustración y gráfica digital</nombre>
+            </ud2>
+            <ud3>
+              <nombre>Administración de servidores web</nombre>
+            </ud3>
+            <ud4>
+              <nombre>Comercio electrónico</nombre>
+            </ud4>
+            <ud5>
+              <nombre>Plan de negocios</nombre>
+            </ud5>
+          </unidades_didacticas>
+        </per2>
+        <nombre>DISEÑO DE SERVICIOS WEB</nombre>
+      </mod3>
+      <nombre>DISEÑO Y PROGRAMCION WEB</nombre>
+    </pe1>
+    <pe2>
+      <nombre>ENFERMERIA TECNICA</nombre>
+    </pe2>
+    <pe3>
+      <nombre>MECATRONICA AUTOMOTRIZ</nombre>
+    </pe3>
+    <pe4>
+      <nombre>INDUSTRIA DD ALIMENTOS Y BEBIDAS</nombre>
+    </pe4>
+    <pe5>
+      <nombre>PRODUCCION AGROPECUARIA</nombre>
+    </pe5>
+  </programas_estudio>
+</ies>

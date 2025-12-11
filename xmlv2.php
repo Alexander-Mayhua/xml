@@ -24,6 +24,7 @@ while ($pe = mysqli_fetch_assoc($resultado)) {
     $et_plan = $xml->createElement('planes_estudio');
     $consulta_plan = "SELECT * FROM sigi_planes_estudio WHERE id_programa_estudios=" . $pe['id'];
     $resultado_plan = $conexion->query($consulta_plan);
+    
     while ($plan = mysqli_fetch_assoc($resultado_plan)) {
         echo "--" . $plan['nombre'] . "<br>";
         $num_plan = $xml->createElement('plan_' . $plan['id']);
@@ -33,6 +34,7 @@ while ($pe = mysqli_fetch_assoc($resultado)) {
         $num_plan->appendChild($resolucion_plan);
         $fecha_registro_plan = $xml->createElement('fecha_registro', $plan['fecha_registro']);
         $num_plan->appendChild($fecha_registro_plan);
+
         $et_modulos = $xml->createElement('modulos_formativos');
         $consulta_mod = "SELECT * FROM sigi_modulo_formativo WHERE id_plan_estudio=" . $plan['id'];
         $resultado_mod = $conexion->query($consulta_mod);
@@ -65,10 +67,10 @@ while ($pe = mysqli_fetch_assoc($resultado)) {
                     $num_ud->appendChild($creditos_practico);
                     $tipo = $xml->createElement('tipo', $uds['tipo']);
                     $num_ud->appendChild($tipo);
-                    $hr_semanal = ($uds['creditos_teorico']*1)+($uds['creditos_practico']*2);
+                    $hr_semanal = ($uds['creditos_teorico'] * 1) + ($uds['creditos_practico'] * 2);
                     $hr_sem = $xml->createElement('horas_semanal', $hr_semanal);
                     $num_ud->appendChild($hr_sem);
-                    $hr_semestral = $xml->createElement('horas_semestral', $hr_semanal*16);
+                    $hr_semestral = $xml->createElement('horas_semestral', $hr_semanal * 16);
                     $num_ud->appendChild($hr_semestral);
                     $et_uds->appendChild($num_ud);
                 }

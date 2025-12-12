@@ -1,21 +1,20 @@
 <?php
-// ==============================
+
 // CONEXION BD
-// ==============================
-$cn = new mysqli("localhost", "root", "", "alexander");
+
+$cn = new mysqli("localhost", "root", "", "xander");
 if ($cn->connect_error) {
     die("Error de conexión: " . $cn->connect_error);
 }
 $cn->set_charset("utf8");
 
-// ==============================
 // CARGAR XML
-// ==============================
+
 $xml = simplexml_load_file('ies_db.xml') or die('Error: nose cargo el xml.');
 
-// ==============================
-// RECORRIDO XML – TU MISMO CÓDIGO
-// ==============================
+
+// RECORRIDO XML 
+
 foreach ($xml as $i_pe => $pe) {
 
     echo 'nombre:' . $pe->nombre . "<br>";
@@ -29,9 +28,9 @@ foreach ($xml as $i_pe => $pe) {
     $id_programa = $stmt->insert_id;
     $stmt->close();
 
-    // ==============================
+
     // PLANES DE ESTUDIO
-    // ==============================
+ 
     foreach ($pe->planes_estudio[0] as $i_ple => $plan) {
 
         echo '--' . $plan->nombre . "<br>";
@@ -53,9 +52,9 @@ foreach ($xml as $i_pe => $pe) {
         $id_plan = $stmt->insert_id;
         $stmt->close();
 
-        // ==============================
+     
         // MODULOS FORMATIVOS
-        // ==============================
+       
         foreach ($plan->modulos_formativos[0] as $id_mod => $modulo) {
 
             echo '----' . $modulo->descripcion . "<br>";
@@ -74,9 +73,9 @@ foreach ($xml as $i_pe => $pe) {
             $id_modulo = $stmt->insert_id;
             $stmt->close();
 
-            // ==============================
+            
             // PERIODOS / SEMESTRES
-            // ==============================
+    
             foreach ($modulo->periodos[0] as $i_pe => $per) {
 
                 echo '------' . $per->descripcion . "<br>";
@@ -90,9 +89,9 @@ foreach ($xml as $i_pe => $pe) {
                 $id_semestre = $stmt->insert_id;
                 $stmt->close();
 
-                // ==============================
+            
                 // UNIDADES DIDACTICAS
-                // ==============================
+                
                 $orden = 1;
                 foreach ($per->unidades_didacticas[0] as $i_ud => $ud) {
 
